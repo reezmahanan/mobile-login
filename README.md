@@ -73,4 +73,4 @@ Feel free to reach out if you have any questions or suggestions!
 
 ---
 
-Made with ❤️ by Reez Mahanan
+Made with ❤️ by Reezma Hanan
