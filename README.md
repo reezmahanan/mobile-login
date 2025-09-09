@@ -24,7 +24,7 @@ The interface includes:
 - Social login options
 - Sign up link for new users
 
-  ![Screenshot of Mobile login](
+  ![Screenshot of Mobile login](https://github.com/reezmahanan/mobile-login/blob/main/Screenshot%202025-09-09%20205812.png
 ) <!-- Add a screenshot named screenshot.png in your repo for better visuals -->
 
 ## Technologies Used
