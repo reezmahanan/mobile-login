@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .mobile-container {
+            background-color: #fff;
+            width: 100%;
+            max-width: 380px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .status-bar {
+            height: 44px;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 16px;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .login-header {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .login-header img {
+            width: 70px;
+            margin-bottom: 10px;
+        }
+
+        .login-header h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .login-header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .login-form {
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            border-color: #667eea;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+        }
+
+        .remember input {
+            margin-right: 8px;
+        }
+
+        .forgot a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .login-button {
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+
+        .login-button:hover {
+            opacity: 0.9;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .divider::before, .divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: #ddd;
+        }
+
+        .divider span {
+            padding: 0 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .social-login {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #ddd;
+            background-color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .social-btn img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .social-btn:hover {
+            background-color: #f5f5f5;
+        }
+
+        .signup {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+
+        .signup a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="status-bar">
+            <span>9:41</span>
+            <div>
+                <span>📶</span>
+                <span>📡</span>
+                <span>🔋</span>
+            </div>
+        </div>
+        
+        <div class="login-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png" alt="App Logo">
+            <h1>Welcome Back</h1>
+            <p>Sign in to continue</p>
+        </div>
+        
+        <div class="login-form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••">
+            </div>
+            
+            <div class="remember-forgot">
+                <div class="remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            
+            <button class="login-button">Sign In</button>
+            
+            <div class="divider">
+                <span>or continue with</span>
+            </div>
+            
+            <div class="social-login">
+                <div class="social-btn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Google">
+                </div>
+                <div class="social-btn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook">
+                </div>
+                <div class="social-btn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3256/3256013.png" alt="Apple">
+                </div>
+            </div>
+        </div>
+        
+        <div class="signup">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
