@@ -24,6 +24,9 @@ The interface includes:
 - Social login options
 - Sign up link for new users
 
+  ![Screenshot of Mobile login](
+) <!-- Add a screenshot named screenshot.png in your repo for better visuals -->
+
 ## Technologies Used
 
 - HTML5
