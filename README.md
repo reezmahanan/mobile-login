@@ -16,6 +16,8 @@ A clean and responsive mobile login interface built with HTML and CSS, featuring
 
 ## Demo
 
+**[Live Demo](https://reezmahanan.github.io/mobile-login/)**
+
 The interface includes:
 - Email and password input fields
 - "Remember me" checkbox
@@ -24,8 +26,8 @@ The interface includes:
 - Social login options
 - Sign up link for new users
 
-  ![Screenshot of Mobile login](https://github.com/reezmahanan/mobile-login/blob/main/Screenshot%202025-09-09%20205812.png
-) <!-- Add a screenshot named screenshot.png in your repo for better visuals -->
+![Screenshot of Mobile login](https://github.com/reezmahanan/mobile-login/blob/main/Screenshot%202025-09-09%20205812.png)
+<!-- Add a screenshot named screenshot.png in your repo for better visuals -->
 
 ## Technologies Used
 
@@ -38,9 +40,9 @@ The interface includes:
 ## Setup and Usage
 
 1. Clone the repository:
-```
-git clone https://github.com/reezmahanan/mobile-login.git
-```
+   ```
+   git clone https://github.com/reezmahanan/mobile-login.git
+   ```
 
 2. Open the `index.html` file in your browser to view the login interface.
 
@@ -75,5 +77,7 @@ Feel free to reach out if you have any questions or suggestions!
 - GitHub: [@reezmahanan](https://github.com/reezmahanan)
 
 ---
+
+If you like this project, please **give your support and star ⭐️** the repo!
 
 Made with ❤️ by Reezma Hanan
